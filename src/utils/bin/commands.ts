@@ -16,7 +16,6 @@ export const help = async (args: string[]): Promise<string> => {
   }
   return `Welcome! Here are all the available commands:
 \n${c}\n
-[tab]: trigger completion.
 [ctrl+l]/clear: clear terminal.\n
 Type 'sum' to display summary.
 `;
@@ -24,7 +23,7 @@ Type 'sum' to display summary.
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
+  return `Hi, I am ${config.name} a creative web dev. 
 Greetings!
 about me:
 'sum' - For short summary.
