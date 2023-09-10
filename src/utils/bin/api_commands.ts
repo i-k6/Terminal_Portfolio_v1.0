@@ -12,7 +12,7 @@ export const projects = async (args: string[]): Promise<string> => {
       (repo) =>
         `${repo.name} - <a class="text-light-blue dark:text-dark-blue underline" href="${repo.html_url}" target="_blank">${repo.html_url}</a>`,
     )
-    .join('\n');
+    .join('\n\n');
 };
 
 export const quote = async (args: string[]): Promise<string> => {
